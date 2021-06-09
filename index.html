@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+    <body>
+        <div class="overlay">
+        <div class="contenedor">
+           
+                <table contenteditable=True id="students">
+                <thead>
+                    <th contenteditable=False>Nombre</th>
+                    <th contenteditable=False>Apellido</th>
+                    <th contenteditable=False>Edad</th>
+                    <th contenteditable=False>telefono</th>
+    
+                </thead>
+                    <tr>
+                      <td>Carlos</td>
+                      <td>perez</td>
+                      <td>16</td>
+                      <td>972045601</td>
+                    </tr>
+                    <tr>
+                      <td >pedro</td>
+                      <td>Castillo</td>
+                      <td>47</td>
+                      <td>988894121</td>
+                    </tr>    
+                </table>
+        
+                    <a href="#" id="insert" onclick=addrow()>
+                        <i class="fas fa-plus"></i>
+                    </a>
+                    <a href="#" id="del" onclick=delrow()>
+                        <i class="fas fa-trash-alt"></i>
+                    </a>
+            
+            </div>
+        </div>
+            <script src="js/app.js"></script>
+    </body>
+    </html>
+</body>
+</html>
